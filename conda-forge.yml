@@ -11,3 +11,5 @@ github:
 provider:
   linux_aarch64: azure
 test: native_and_emulated
+bot:
+  automerge: true
