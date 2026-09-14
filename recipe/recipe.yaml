@@ -15,9 +15,7 @@ source:
 
 build:
   script:
-    - if: unix
-      then: ${{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
-      else: ${{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
+    - ${{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
   number: 3
 
 requirements:
